@@ -1,0 +1,11 @@
+
+
+.navbar{
+ background-color: blue !important;
+ width: auto;
+ height: 112px;
+}
+
+.navbar-brand{
+margin-left: 140px;
+}
