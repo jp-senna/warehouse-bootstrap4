@@ -15,28 +15,212 @@
   <script src="./js/popper.min.js"></script>
   <script src="./js/bootstrap.min.js"></script>
 
+  <!-- Required meta tags -->
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+   <!-- bootstrap css stylesheet -->
+   <link rel="stylesheet" href="./css/bootstrap.min.css">
+   <!--My stylesheet -->
+   <link rel="stylesheet" href="./css/css-style.css">
+
+  <!-- Fonts -->
+
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,900" rel="stylesheet">
+
+
  <title>Warehouse</title>
 
   </head>
 
   <body>
-<!-- Header -->
-<nav class="navbar navbar-light bg-light justify-content-between">
-  <a class="navbar-brand"> <img src="./img/logo-header.svg" alt=""></a>
+
+    <!-- Header -->
+
+<header>
+     <!-- logo home -->
+
+ <nav class="navbar navbar-expand">
+   <div class="container-fluid">
+
+     <div class="navbar-header col-md-2 text-right">
+       <a href="/index">
+         <img src="./img/shape.svg"  alt="brand logo">
+       </a>
+    </div>
+
+   <!-- Nav Main Menu -->
+
+
+     <div class="nav-item col-md-4">
+
+       <ul class="nav navbar-nav">
+
+       <li> <button class="btn  btn-secondary" href="/today-deals" id="btn-nav" type="button">Today's Deals</button></li>
+
+       <li class=" nav-item dropdown">
+           <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Categories<b class="caret"></b></a>
+           <ul class="dropdown-menu multi-column columns-2">
+             <div class="row">
+               <div class="col-sm-6">
+                 <ul class="multi-column-dropdown">
+                   <li><a href="#">Living Room</a></li>
+                   <li><a href="#">Bedroom</a></li>
+                   <li><a href="#">Bathroom</a></li>
+                   <li><a href="#">Dining Room</a></li>
+                   <li><a href="#">Kitchen</a></li>
+                 </ul>
+               </div>
+               <div class="col-sm-6">
+                 <ul class="multi-column-dropdown">
+
+                   <li><a href="#">Patio</a></li>
+                   <li><a href="#">Oficce+Storage</a></li>
+                   <li><a href="#">Tools</a></li>
+
+
+                 </ul>
+               </div>
+             </div>
+           </ul>
+       </li>
+
+       <li class="nav-item">
+           <a class="nav-link" href="#">Inspirations</a>
+       </li>
+
+       <li class="nav-item">
+           <a class="nav-link" href="#">Help</a>
+       </li>
+
+       </ul>
+
+     </div>
+
+<!-- Search bar -->
+  <div class="nav-item col-md-3">
+
+    <form class="navbar-form navbar-right"> <input type="text" class="form-control glyphicon glyphicon-search" placeholder="Search..."> <span class="glyphicon glyphicon-search"></span> </form>
+
+  </div>
+
+<!-- Login -->
+
+  <div class="nav-item col-md-3" >
 
   <form class="form-inline">
-    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    <a class="btn" id="login-btn" href="#" role="button">Login/Sign Up</a>
+
+  <!-- shopping cart -->
+
+    <a id="cart-btn" href="/index"><img class="cart-icon" src="./img/shopping-cart-icon.svg" alt="shopping cart button"></a>
+
   </form>
-</nav>
+
+  </div>
+
+
+ </nav>
+</header>
+
 
 <!-- Jumbotron -->
 
+  <section class="jumbotron">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4">
+        <h1>Inspirations</h1>
+        <p>Find Inspiration easily</p>
+        <a class="btn" id="jumbo-btn" href="#" role="button">See all</a>
+      </div>
+     </div>
+    </div>
+  </section>
 
-<!-- Categories -->
+  <!-- Categories -->
 
-<!-- Horizontal Scroll 1 -->
 
+  <h2 class="col-md-3 text-right" id="categories">Categories</h2>
+  </br>
+  <section class="container categories">
+    <div class="row">
+
+    <!-- test card type
+        <a href="#"class="col-md-3 categories-card">
+          <img src="./img/home/jp-changes/Bathroom.png" alt="Bathroom section"/>
+          <h4>Bathroom</h4>
+        </a>  -->
+
+
+     <div class="card" style="width: 120px;">
+     <a href="#" class="card-title">
+       <img class="card-img-top" src="./img/home/jp-changes/Living-Room.png" alt="Living-Room section">
+       <h4>Living-Room</h4>
+     </a>
+     </div>
+
+     <div class="card" style="width: 120px;">
+     <a href="#" class="card-title">
+       <img class="card-img-top" src="./img/home/jp-changes/Bedroom.png" alt="Bedroom section">
+       <h4>Bedroom</h4>
+     </a>
+     </div>
+
+     <div class="card" style="width: 120px;">
+     <a href="#" class="card-title">
+       <img class="card-img-top" src="./img/home/jp-changes/Bathroom.png" alt="Bathroom section">
+       <h4>Bathroom</h4>
+     </a>
+     </div>
+
+     <div class="card" style="width: 120px;">
+     <a href="#" class="card-title">
+       <img class="card-img-top" src="./img/home/jp-changes/Dining-Room.png" alt="Dining-Room section">
+       <h4>Dining-Room</h4>
+     </a>
+     </div>
+
+     <div class="card" style="width: 120px;">
+     <a href="#" class="card-title">
+       <img class="card-img-top" src="./img/home/jp-changes/Kitchen.png" alt="Kitchen section">
+       <h4>Kitchen</h4>
+     </a>
+     </div>
+
+     <div class="card" style="width: 120px;">
+     <a href="#" class="card-title">
+       <img class="card-img-top" src="./img/home/jp-changes/Lighting.png" alt="Lighting section">
+       <h4>Lighting</h4>
+     </a>
+     </div>
+
+     <div class="card" style="width: 120px;">
+     <a href="#" class="card-title">
+       <img class="card-img-top" src="./img/home/jp-changes/Office+Storage.png" alt="Office+Storage section">
+       <h4>Office+Storage</h4>
+     </a>
+     </div>
+
+     <div class="card" style="width: 120px;">
+     <a href="#" class="card-title">
+       <img class="card-img-top" src="./img/home/jp-changes/Patio.png" alt="Patio section">
+       <h4>Patio</h4>
+     </a>
+     </div>
+
+     <div class="card" style="width: 120px;">
+     <a href="#" class="card-title">
+       <img class="card-img-top" src="./img/home/jp-changes/tools.png" alt="Tools section">
+       <h4>tools</h4>
+     </a>
+     </div>
+
+    </div>
+  </section>
+
+
+  <!-- Today's Deals categories -->
 
 <!-- Horizontal Scroll 2 -->
 
@@ -47,45 +231,6 @@
 
 
 
-    <ul class="nav">
-  <li class="nav-item">
-    <a class="nav-link active" href="#">Active</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Link</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Link</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link disabled" href="#">Disabled</a>
-  </li>
-</ul>
-
-    <div class="jumbotron text-center">
-      <h1>My First Bootstrap Page</h1>
-      <p>Resize this responsive page to see the effect!</p>
-    </div>
-
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-4">
-          <h3>Column 1</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-          <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-        </div>
-        <div class="col-sm-4">
-          <h3>Column 2</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-          <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-        </div>
-        <div class="col-sm-4">
-          <h3>Column 3</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-          <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-        </div>
-      </div>
-    </div>
 
 
   </body>
