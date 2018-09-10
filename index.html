@@ -37,117 +37,111 @@
 
     <!-- Header -->
 
-<header>
+    <header>
      <!-- logo home -->
 
- <nav class="navbar navbar-expand">
-   <div class="container-fluid">
+     <nav class="navbar navbar-expand">
+         <div class="container-fluid">
 
-     <div class="navbar-header col-md-2 text-right">
-       <a href="/index">
-         <img src="./img/shape.svg"  alt="brand logo">
-       </a>
-    </div>
+           <div class="navbar-header col-md-2 text-right">
+             <a href="/index">
+               <img src="./img/shape.svg"  alt="brand logo">
+             </a>
+
+         </div>
 
    <!-- Nav Main Menu -->
 
 
-     <div class="nav-item col-md-4">
+       <div class="nav-item col-md-4">
 
-       <ul class="nav navbar-nav">
+         <ul class="nav navbar-nav">
 
-       <li> <button class="btn  btn-secondary" href="/today-deals" id="btn-nav" type="button">Today's Deals</button></li>
+         <li> <button class="btn  btn-secondary" href="/today-deals" id="btn-nav" type="button">Today's Deals</button></li>
 
-       <li class=" nav-item dropdown">
-           <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Categories<b class="caret"></b></a>
-           <ul class="dropdown-menu multi-column columns-2">
-             <div class="row">
-               <div class="col-sm-6">
-                 <ul class="multi-column-dropdown">
-                   <li><a href="#">Living Room</a></li>
-                   <li><a href="#">Bedroom</a></li>
-                   <li><a href="#">Bathroom</a></li>
-                   <li><a href="#">Dining Room</a></li>
-                   <li><a href="#">Kitchen</a></li>
-                 </ul>
+         <li class=" nav-item dropdown">
+             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Categories<b class="caret"></b></a>
+             <ul class="dropdown-menu multi-column columns-2">
+               <div class="row">
+                 <div class="col-sm-6">
+                   <ul class="multi-column-dropdown">
+                     <li><a href="#">Living Room</a></li>
+                     <li><a href="#">Bedroom</a></li>
+                     <li><a href="#">Bathroom</a></li>
+                     <li><a href="#">Dining Room</a></li>
+                     <li><a href="#">Kitchen</a></li>
+                   </ul>
+                 </div>
+                 <div class="col-sm-6">
+                   <ul class="multi-column-dropdown">
+
+                     <li><a href="#">Patio</a></li>
+                     <li><a href="#">Oficce+Storage</a></li>
+                     <li><a href="#">Tools</a></li>
+
+
+                   </ul>
+                 </div>
                </div>
-               <div class="col-sm-6">
-                 <ul class="multi-column-dropdown">
+             </ul>
+         </li>
 
-                   <li><a href="#">Patio</a></li>
-                   <li><a href="#">Oficce+Storage</a></li>
-                   <li><a href="#">Tools</a></li>
+         <li class="nav-item">
+             <a class="nav-link" href="#">Inspirations</a>
+         </li>
 
+         <li class="nav-item">
+             <a class="nav-link" href="#">Help</a>
+         </li>
 
-                 </ul>
-               </div>
-             </div>
-           </ul>
-       </li>
+         </ul>
 
-       <li class="nav-item">
-           <a class="nav-link" href="#">Inspirations</a>
-       </li>
+       </div>
 
-       <li class="nav-item">
-           <a class="nav-link" href="#">Help</a>
-       </li>
-
-       </ul>
-
-     </div>
-
-<!-- Search bar -->
   <div class="nav-item col-md-3">
 
     <form class="navbar-form navbar-right"> <input type="text" class="form-control glyphicon glyphicon-search" placeholder="Search..."> <span class="glyphicon glyphicon-search"></span> </form>
 
   </div>
 
-<!-- Login -->
 
-  <div class="nav-item col-md-3" >
+  <div class="nav-item col-md-3">
 
-  <form class="form-inline">
-    <a class="btn" id="login-btn" href="#" role="button">Login/Sign Up</a>
+    <form class="form-inline">
+  <a class="btn" id="login-btn" href="#" role="button">Login</a>
 
-  <!-- shopping cart -->
+  <a id="cart-btn" href="/index"><img class="cart-icon" src="./img/shopping-cart-icon.svg" alt="shopping cart button"></a>
 
-    <a id="cart-btn" href="/index"><img class="cart-icon" src="./img/shopping-cart-icon.svg" alt="shopping cart button"></a>
-
-  </form>
+    </form>
 
   </div>
 
+  </nav>
 
- </nav>
-</header>
+  <!-- Jumbotron -->
 
-
-<!-- Jumbotron -->
-
-  <section class="jumbotron">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-4">
-        <h1>Inspirations</h1>
-        <p>Find Inspiration easily</p>
-        <a class="btn" id="jumbo-btn" href="#" role="button">See all</a>
+    <section class="jumbotron">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4">
+          <h1>Inspirations</h1>
+          <p>Find Inspiration easily</p>
+          <a class="btn" id="jumbo-btn" href="#" role="button">See all</a>
+        </div>
+       </div>
       </div>
-     </div>
-    </div>
-  </section>
+    </section>
 
   <!-- Categories -->
 
 
   <h2 class="col-md-3 text-right" id="categories">Categories</h2>
   </br>
+
   <section class="container categories">
     <div class="row">
 
-    <!-- test card type
-        <a href="#"class="col-md-3 categories-card">
+    <!--    <a href="#"class="col-md-3 categories-card">
           <img src="./img/home/jp-changes/Bathroom.png" alt="Bathroom section"/>
           <h4>Bathroom</h4>
         </a>  -->
@@ -156,63 +150,63 @@
      <div class="card" style="width: 120px;">
      <a href="#" class="card-title">
        <img class="card-img-top" src="./img/home/jp-changes/Living-Room.png" alt="Living-Room section">
-       <h4>Living-Room</h4>
+       <h3>Living-Room</h3>
      </a>
      </div>
 
      <div class="card" style="width: 120px;">
      <a href="#" class="card-title">
        <img class="card-img-top" src="./img/home/jp-changes/Bedroom.png" alt="Bedroom section">
-       <h4>Bedroom</h4>
+       <h3>Bedroom</h3>
      </a>
      </div>
 
      <div class="card" style="width: 120px;">
      <a href="#" class="card-title">
        <img class="card-img-top" src="./img/home/jp-changes/Bathroom.png" alt="Bathroom section">
-       <h4>Bathroom</h4>
+       <h3>Bathroom</h3>
      </a>
      </div>
 
      <div class="card" style="width: 120px;">
      <a href="#" class="card-title">
        <img class="card-img-top" src="./img/home/jp-changes/Dining-Room.png" alt="Dining-Room section">
-       <h4>Dining-Room</h4>
+       <h3>Dining-Room</h3>
      </a>
      </div>
 
      <div class="card" style="width: 120px;">
      <a href="#" class="card-title">
        <img class="card-img-top" src="./img/home/jp-changes/Kitchen.png" alt="Kitchen section">
-       <h4>Kitchen</h4>
+       <h3>Kitchen</h3>
      </a>
      </div>
 
      <div class="card" style="width: 120px;">
      <a href="#" class="card-title">
        <img class="card-img-top" src="./img/home/jp-changes/Lighting.png" alt="Lighting section">
-       <h4>Lighting</h4>
+       <h3>Lighting</h3>
      </a>
      </div>
 
      <div class="card" style="width: 120px;">
      <a href="#" class="card-title">
        <img class="card-img-top" src="./img/home/jp-changes/Office+Storage.png" alt="Office+Storage section">
-       <h4>Office+Storage</h4>
+       <h3>Office+Storage</h3>
      </a>
      </div>
 
      <div class="card" style="width: 120px;">
      <a href="#" class="card-title">
        <img class="card-img-top" src="./img/home/jp-changes/Patio.png" alt="Patio section">
-       <h4>Patio</h4>
+       <h3>Patio</h3>
      </a>
      </div>
 
      <div class="card" style="width: 120px;">
      <a href="#" class="card-title">
        <img class="card-img-top" src="./img/home/jp-changes/tools.png" alt="Tools section">
-       <h4>tools</h4>
+       <h3>tools</h3>
      </a>
      </div>
 
@@ -221,12 +215,380 @@
 
 
   <!-- Today's Deals categories -->
+  </br>
+  <h2 class="col-md-3 text-right" id="categories-td">Today's Deals</h2>
+  </br>
 
-<!-- Horizontal Scroll 2 -->
+    <div class="scrolling-wrapper-flexbox col-md-9 text-right">
 
-<!-- Grid -->
 
-<!-- Footer -->
+        <div class="card" style="width: 220px;">
+          <a href="#">
+            <img class="card-img-top" src="img/home/todays-deals/td-1.png" alt="Tools section">
+            <h3 class="td-deals">Marine Table</h3>
+            <h4>$120,00</h4>
+          </a>
+        </div>
+
+        <div class="card" style="width: 220px;">
+          <a href="#">
+            <img class="card-img-top" src="img/home/todays-deals/td-2.png" alt="Tools section">
+            <h3 class="td-deals">Pottery</h3>
+            <h4>$50,00</h4>
+          </a>
+        </div>
+
+        <div class="card" style="width: 220px;">
+          <a href="#">
+            <img class="card-img-top" src="img/home/todays-deals/td-5.png" alt="Tools section">
+            <h3 class="td-deals">Wooden spoons</h3>
+            <h4>$80,00</h4>
+          </a>
+        </div>
+
+        <div class="card" style="width: 220px;">
+          <a href="#">
+            <img class="card-img-top" src="img/home/todays-deals/td-4.png" alt="Tools section">
+            <h3 class="td-deals">Yellow Chair</h3>
+            <h4>$95,00</h4>
+          </a>
+        </div>
+
+        <div class="card" style="width: 220px;">
+          <a href="#">
+            <img class="card-img-top" src="img/home/todays-deals/td-5.png" alt="Tools section">
+            <h3 class="td-deals">Richards Travis Chair</h3>
+            <h4>$120,00</h4>
+          </a>
+        </div>
+
+        <div class="card" style="width: 220px;">
+          <a href="#">
+            <img class="card-img-top" src="img/home/todays-deals/td-2.png" alt="Tools section">
+            <h3 class="td-deals">Basket Chair</h3>
+            <h4>$120,00</h4>
+          </a>
+        </div>
+
+        <div class="card" style="width: 220px;">
+          <a href="#">
+            <img class="card-img-top" src="img/home/todays-deals/td-3.png" alt="Tools section">
+            <h3 class="td-deals">tools</h3>
+            <h4>$120,00</h4>
+          </a>
+        </div>
+
+        <div class="card" style="width: 220px;">
+          <a href="#">
+            <img class="card-img-top" src="img/home/todays-deals/td-5.png" alt="Tools section">
+            <h3 class="td-deals">Richards Travis Chair</h3>
+            <h4>$120,00</h4>
+          </a>
+        </div>
+
+        <div class="card" style="width: 220px;">
+          <a href="#">
+            <img class="card-img-top" src="img/home/todays-deals/td-2.png" alt="Tools section">
+            <h3 class="td-deals">Basket Chair</h3>
+            <h4>$120,00</h4>
+          </a>
+        </div>
+
+        <div class="card" style="width: 220px;">
+          <a href="#">
+            <img class="card-img-top" src="img/home/todays-deals/td-3.png" alt="Tools section">
+            <h3 class="td-deals">tools</h3>
+            <h4>$120,00</h4>
+          </a>
+        </div>
+
+    </div>
+
+
+    <!-- Recently Viewed -->
+
+    </br>
+    <h2 class="Recently-Viewed col-md-3 text-right">Recently Viewed</h2>
+    </br>
+
+      <div class="scrolling-wrapper-flexbox col-md-9 text-right">
+
+
+          <div class="card" style="width: 339px;">
+            <a href="#">
+              <img class="card-img-top" src="img/home/Recently-Viewed/rv-1.png" alt="Tools section">
+              <h3 class="td-deals">Marine Table</h3>
+              <h4>$120,00</h4>
+            </a>
+          </div>
+
+          <div class="card" style="width: 339px;">
+            <a href="#">
+              <img class="card-img-top" src="img/home/Recently-Viewed/rv-2.png" alt="Tools section">
+              <h3 class="td-deals">Pottery</h3>
+              <h4>$50,00</h4>
+            </a>
+          </div>
+
+          <div class="card" style="width: 339px;">
+            <a href="#">
+              <img class="card-img-top" src="img/home/Recently-Viewed/rv-3.png" alt="Tools section">
+              <h3 class="td-deals">Wooden spoons</h3>
+              <h4>$80,00</h4>
+            </a>
+          </div>
+
+          <div class="card" style="width: 339px;">
+            <a href="#">
+              <img class="card-img-top" src="img/home/Recently-Viewed/rv-4.png" alt="Tools section">
+              <h3 class="td-deals">Yellow Chair</h3>
+              <h4>$95,00</h4>
+            </a>
+          </div>
+
+          <div class="card" style="width: 339px;">
+            <a href="#">
+              <img class="card-img-top" src="img/home/Recently-Viewed/rv-1.png" alt="Tools section">
+              <h3 class="td-deals">Richards Travis Chair</h3>
+              <h4>$120,00</h4>
+            </a>
+          </div>
+
+          <div class="card" style="width: 339px;">
+            <a href="#">
+              <img class="card-img-top" src="img/home/Recently-Viewed/rv-2.png" alt="Tools section">
+              <h3 class="td-deals">Basket Chair</h3>
+              <h4>$120,00</h4>
+            </a>
+          </div>
+
+          <div class="card" style="width: 339px;">
+            <a href="#">
+              <img class="card-img-top" src="img/home/Recently-Viewed/rv-3.png" alt="Tools section">
+              <h3 class="td-deals">tools</h3>
+              <h4>$120,00</h4>
+            </a>
+          </div>
+
+          <div class="card" style="width: 339px;">
+            <a href="#">
+              <img class="card-img-top" src="img/home/Recently-Viewed/rv-4.png" alt="Tools section">
+              <h3 class="td-deals">Richards Travis Chair</h3>
+              <h4>$120,00</h4>
+            </a>
+          </div>
+
+          <div class="card" style="width: 339px;">
+            <a href="#">
+              <img class="card-img-top" src="img/home/Recently-Viewed/rv-1.png" alt="Tools section">
+              <h3 class="td-deals">Basket Chair</h3>
+              <h4>$120,00</h4>
+            </a>
+          </div>
+
+          <div class="card" style="width: 339px;">
+            <a href="#">
+              <img class="card-img-top" src="img/home/Recently-Viewed/rv-2.png" alt="Tools section">
+              <h3 class="td-deals">tools</h3>
+              <h4>$120,00</h4>
+            </a>
+          </div>
+
+      </div>
+
+  <!-- help / inspirations section -->
+    </br>
+
+
+    <section class="container">
+      <div class="row">
+
+        <figure class="col-md-5">
+          <img src="img/needs-some-help.png" alt="need some help?">
+        </figure>
+
+        <figure class="col-md-7">
+          <img src="img/inspirations.png" alt="projects">
+        </figure>
+
+      </div>
+    </section>
+
+      <!-- Subcribe  -->
+
+      <section class="newsletter">
+        <div class="container">
+        	<div class="row">
+        		<div class="col-md-6 col-md-offset-3">
+
+                  <p class="newsletter">
+                   Subscribe to our newsletter
+                 </p>
+
+            	 <div class="well">
+                     <form action="#">
+                      <div class="input-group">
+                         <input class="btn btn-lg" name="email" id="email" type="email" placeholder="Your Email" required>
+                         <button class="btn btn-lg" id="btn-nav-newsletter" type="submit">Submit</button>
+                      </div>
+                     </form>
+            	 </div>
+                 <small class="promise"><em>We won't send spam.</em></small>
+        		</div>
+        	</div>
+        </div>
+     </section>
+
+    </br>
+
+
+  <!-- Footer -->
+
+        <footer class="footer ">
+
+            <!-- Footer Links -->
+            <div class="text-center text-md-left">
+
+
+
+              <!-- Grid row -->
+              <div class="row">
+
+                <!-- Grid column -->
+                <div class="col-md-4 mx-auto">
+
+                  <!-- Content -->
+                  <div class="footer-logo text-center">
+                    <a href="/index">
+                      <img class="footer-logo"src="./img/shape.svg"  alt="brand logo footer">
+                    </a>
+                  </div>
+
+                </div>
+                <!-- Grid column -->
+
+                <hr class="clearfix w-100 d-md-none">
+
+                <!-- Grid column -->
+                <div class="col-md-2 mx-auto">
+
+                  <!-- Links -->
+                  <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Company</h5>
+
+                  <ul class="list-unstyled">
+                    <li>
+                      <a href="#!">About Us</a>
+                    </li>
+                    <li>
+                      <a href="#!">Investor Relations</a>
+                    </li>
+                    <li>
+                      <a href="#!">Fundraiser events</a>
+                    </li>
+                    <li>
+                      <a href="#!">Comunity</a>
+                    </li>
+                    <li>
+                      <a href="#!">Help</a>
+                    </li>
+                    <li>
+                      <a href="#!">Contact Us</a>
+                    </li>
+                </ul>
+
+                </div>
+                <!-- Grid column -->
+
+                <hr class="clearfix w-100 d-md-none">
+
+                <!-- Grid column -->
+                <div class="col-md-2 mx-auto">
+
+                  <!-- Links -->
+                  <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Opportunities</h5>
+
+                  <ul class="list-unstyled">
+                    <li>
+                      <a href="#!">Jobs</a>
+                    </li>
+                    <li>
+                      <a href="#!">Get to know us</a>
+                    </li>
+                    <li>
+                      <a href="#!">Sell on Warehouse</a>
+                    </li>
+                    <li>
+                      <a href="#!">Become a Vendor</a>
+                    </li>
+                  </ul>
+
+                </div>
+                <!-- Grid column -->
+
+                <hr class="clearfix w-100 d-md-none">
+
+                <!-- Grid column -->
+                <div class="col-md-4 mx-auto">
+
+                  <!-- Links -->
+                  <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Legal</h5>
+
+                  <ul class="list-unstyled">
+                    <li>
+                      <a href="#!">Conditions of Use</a>
+                    </li>
+                    <li>
+                      <a href="#!">Report a Problem</a>
+                    </li>
+                    <li>
+                      <a href="#!">Privacy Policy</a>
+                    </li>
+
+                  </ul>
+
+                </div>
+                <!-- Grid column -->
+
+              </div>
+              <!-- Grid row -->
+
+            </div>
+              <!-- Footer Links -->
+
+            <hr>
+
+            <!-- Call to action -->
+            <ul class="list-unstyled list-inline text-center py-2">
+              <li class="list-inline-item">
+                <h5 class="mb-1">Register for free</h5>
+              </li>
+              <li class="list-inline-item">
+                <a href="#!" id="btn-footer" class="button">Sign up!</a>
+              </li>
+            </ul>
+            <!-- Call to action -->
+
+            <hr>
+
+
+
+            <!-- Copyright -->
+            <div class="cp-color">
+              <div class="footer-copyright text-center py-3">© 2018 Copyright:
+                <a class="link-footer" href="/index.html"> Warehouse.com</a>
+              </div>
+            </div>
+
+            <!-- Copyright -->
+
+        </footer>
+        <!-- Footer -->
+
+
+
+
+   </body>
+  </html>
 
 
 
