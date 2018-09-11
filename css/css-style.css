@@ -370,3 +370,74 @@ padding-top: 20px;
 .cp-color a {
   color: white;
 }
+
+/* Living room h1 page */
+.main-categories {
+height: 76px;
+width: 416px;
+color: #0541A2;
+font-family: "Source Sans Pro";
+font-size: 76px;
+font-weight: 700;
+line-height: 76px;
+white-space: nowrap;
+}
+
+.types-products {
+
+}
+
+
+/* tag and filter tags */
+
+#tag-btn {
+  border-radius: 30px;
+  padding: 3px 7px;
+}
+
+.filter {
+
+  background-color: white;
+}
+
+
+ .accordion {
+   list-style: none;
+}
+
+#headingOne {
+  height: 50px;
+  font-style: "Source Sans Pro" Helvetica ;
+  font-weight: 700;
+}
+
+#filter-titles {
+  height: 50px;
+  font-style: "Source Sans Pro" Helvetica ;
+  font-weight: 700;
+}
+
+
+
+/* retangle bar */
+.band {
+  width:  auto;
+  height: 40px;
+  background-color: #c8c8c8;
+  padding: 2px 0px;
+  padding-left: 30px;
+  border-radius: 5px
+}
+
+
+.content-area {
+   padding-right: 0;
+   padding-left: 0;
+   margin-left: auto;
+ }
+
+ .product-itens {
+
+   grid-column-gap: 15px;
+
+ }
