@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
@@ -40,7 +40,7 @@
     <header>
      <!-- logo home -->
 
-     <nav class="navbar navbar-expand">
+     <nav class="navbar navbar-expand" role="navigation" aria-label="Main navegation">
          <div class="container-fluid">
 
            <div class="navbar-header col-md-2 text-right">
@@ -65,7 +65,7 @@
                <div class="row">
                  <div class="col-sm-6">
                    <ul class="multi-column-dropdown">
-                     <li><a href="#">Living Room</a></li>
+                     <li><a href="living-room.html">Living Room</a></li>
                      <li><a href="#">Bedroom</a></li>
                      <li><a href="#">Bathroom</a></li>
                      <li><a href="#">Dining Room</a></li>
@@ -119,6 +119,7 @@
   </nav>
 
   <!-- Jumbotron -->
+  <main class="main section">
 
     <section class="jumbotron">
       <div class="container">
@@ -148,7 +149,7 @@
 
 
      <div class="card" style="width: 120px;">
-     <a href="#" class="card-title">
+     <a href="living-room.html" class="card-title">
        <img class="card-img-top" src="./img/home/jp-changes/Living-Room.png" alt="Living-Room section">
        <h3>Living-Room</h3>
      </a>
@@ -418,33 +419,36 @@
 
       <section class="newsletter">
         <div class="container">
-        	<div class="row">
-        		<div class="col-md-6 col-md-offset-3">
+          <div class="row">
+            <div class="col-md-6 col-md-offset-3">
 
                   <p class="newsletter">
                    Subscribe to our newsletter
                  </p>
 
-            	 <div class="well">
+               <div class="well">
                      <form action="#">
                       <div class="input-group">
                          <input class="btn btn-lg" name="email" id="email" type="email" placeholder="Your Email" required>
                          <button class="btn btn-lg" id="btn-nav-newsletter" type="submit">Submit</button>
                       </div>
                      </form>
-            	 </div>
+               </div>
                  <small class="promise"><em>We won't send spam.</em></small>
-        		</div>
-        	</div>
+            </div>
+          </div>
         </div>
      </section>
 
     </br>
 
 
+  </main>
+
+
   <!-- Footer -->
 
-        <footer class="footer ">
+        <footer class="footer " role="contentinfo">
 
             <!-- Footer Links -->
             <div class="text-center text-md-left">
