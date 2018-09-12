@@ -140,6 +140,8 @@ h4 {
   line-height: 44px;
 }
 
+
+
  #jumbo-btn {
   border-radius: 30px;
 	height: 42px;
@@ -200,6 +202,13 @@ left: 90px;
   width: 60%;
 }
 
+button:hover {
+ color: hsla(0, 0%, 0%, 0.3)!important;
+}
+
+.btn:hover {
+ color: hsla(0, 0%, 0%, 0.3)!important;
+}
 
 .card-title{
   text-decoration: none !important;
@@ -214,9 +223,13 @@ left: 90px;
   border-radius:  15px;
   box-shadow: 2px 2px 28px grey;
   list-style: none;
+  text-decoration: none;
+
 }
 
-
+.btn-link {
+  padding-top: 1px;
+}
 /* todays deals slide horizontal */
 
 .td-deals h3 {
@@ -387,6 +400,9 @@ white-space: nowrap;
 
 }
 
+.breadcrumb {
+padding-left: 140px;
+}
 
 /* tag and filter tags */
 
@@ -439,5 +455,34 @@ white-space: nowrap;
  .product-itens {
 
    grid-column-gap: 15px;
+}
 
- }
+.img-responsive {
+   height: 105px;
+}
+
+/* principal products */
+
+.products-container {
+  margin-top: 15px;
+  margin-left: 0px;
+
+}
+
+.img-responsive:hover {
+  border-radius:  15px;
+  box-shadow: 2px 2px 28px grey;
+}
+
+
+
+.img-responsive {
+    height: auto;
+    width:  auto;
+}
+
+
+
+.Recently-Viewed {
+   margin-bottom: 8px;
+}
