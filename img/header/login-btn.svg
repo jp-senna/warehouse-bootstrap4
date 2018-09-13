@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="155.91999999999996" width="223.92000000000007">
+  <defs>
+    <rect id="rect-0" opacity="1" x="62.460000000000036" y="62.459999999999994" width="99" height="31"/>
+    <filter id="filter-1" filterUnits="userSpaceOnUse" x="-50%" y="-50%" width="200%" height="200%">
+      <feOffset in="SourceAlpha" result="shadow-1-feOffset-shadow" dx="0" dy="2"/>
+      <feGaussianBlur in="shadow-1-feOffset-shadow" result="shadow-1-feGaussianBlur-shadow" stdDeviation="7.5"/>
+      <feColorMatrix in="shadow-1-feGaussianBlur-shadow" result="shadow-1-feColorMatrix-shadow" type="matrix" values="0 0 0 0 0.06666666666666667  0 0 0 0 0.22745098039215686  0 0 0 0 0.4235294117647059  0 0 0 1 0"/>
+    </filter>
+    <path id="path-2" opacity="1" d="M77.96000000000004,62.459999999999994 L145.96000000000004,62.459999999999994 C154.51468287965702,62.459999999999994 161.46000000000004,69.405317120343 161.46000000000004,77.96 C161.46000000000004,86.51468287965699 154.51468287965702,93.46 145.96000000000004,93.46 L77.96000000000004,93.46 C69.40531712034304,93.46 62.460000000000036,86.51468287965699 62.460000000000036,77.96 C62.460000000000036,69.405317120343 69.40531712034304,62.459999999999994 77.96000000000004,62.459999999999994Z"/>
+    <filter id="filter-3" filterUnits="userSpaceOnUse" x="-50%" y="-50%" width="200%" height="200%">
+      <feOffset in="SourceAlpha" result="shadow-1-feOffset-shadow" dx="0" dy="1"/>
+      <feGaussianBlur in="shadow-1-feOffset-shadow" result="shadow-1-feGaussianBlur-shadow" stdDeviation="2"/>
+      <feColorMatrix in="shadow-1-feGaussianBlur-shadow" result="shadow-1-feColorMatrix-shadow" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.13 0"/>
+    </filter>
+    <linearGradient id="linearGradient-4" x1="0.11" y1="0.27" x2="0.99" y2="0.71">
+      <stop offset="0" stop-color="rgb(66,169,255)" stop-opacity="1"/>
+      <stop offset="1" stop-color="rgb(31,191,255)" stop-opacity="1"/>
+    </linearGradient>
+    <linearGradient id="linearGradient-5" x1="0.01" y1="0.28" x2="1.02" y2="0.5">
+      <stop offset="0" stop-color="rgb(255,255,255)" stop-opacity="0"/>
+      <stop offset="1" stop-color="rgb(255,255,255)" stop-opacity="0.3"/>
+    </linearGradient>
+    <mask id="mask-6" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse">
+      <rect opacity="1" x="0" y="0" width="223.92000000000007" height="155.91999999999996" fill="black"/>
+      <use xlink:href="#path-2" fill="white"/>
+    </mask>
+  </defs>
+  <g opacity="1">
+    <use xlink:href="#rect-0" fill="black" fill-opacity="0" filter="url(#filter-1)" stroke="black" stroke-opacity="0" stroke-width="0"/>
+    <g opacity="1">
+      <use xlink:href="#path-2" fill="black" filter="url(#filter-3)" stroke="black" stroke-opacity="1" stroke-width="0.5"/>
+      <use xlink:href="#path-2" fill="url(#linearGradient-4)"/>
+      <use xlink:href="#path-2" fill-opacity="0" stroke="url(#linearGradient-5)" stroke-opacity="0.3" stroke-width="1" mask="url(#mask-6)"/>
+    </g>
+  </g>
+</svg>
